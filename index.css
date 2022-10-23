@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("hu9lpJ.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main_Div{
+    text-align: center;
+    color: yellow;
+}
+#sub_Div{
+    font-size: 4vw;
+    color: white;
+}
+#translateBtn{
+    height: 55px;
+    width: 16vw;
+    font-size: 29px;
+    color: yellow;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#div2{
+    text-align: center;
+    font-style: oblique;
+}
+#h1{
+    color: white;
+    border: 2px solid;
+    font-size: 7vh;
+}
+#video{
+    align-items: center;
+}
+#h11{
+    border: 2px solid;
+    font-size: 10vh;
+    background-color: black;
+}
+#audioSec{
+    text-align: center;
+    align-items: center;
+}
+#style{
+    color: white;
+    font-size: 18px;
+}
+#audio{
+    width: 50vw;
+    height: 10vh;
+}
+
+@media (max-width: 775px){
+    #h11{
+        border: 2px solid;
+        font-size: 7vh;
+    }
+    #sub_Div{
+        font-size: 3vw;
+    }
+    #translateBtn{
+        height: 40px;
+        width: 14vw;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 9%;
+    }
+    #h1{
+        font-size: 5vh;
+    }
+    #style{
+        color: white;
+        font-size: 15px;
+    }
+    #audio{
+        width: 50vw;
+        height: 7vh;
+    }
+} 
+@media (max-width: 741px){
+    #h11{
+        font-size: 4vh;
+    }
+    #sub_Div{
+        font-size: 2vw;
+    }
+    #translateBtn{
+        height: 30px;
+        width: 12vw;
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 10%;
+    }
+    #h1{
+        font-size: 3vh;
+    }
+    #style{
+        color: white;
+        font-size: 13px;
+    }
+    #audio{
+        width: 50vw;
+        height: 5vh;
+    }
+}
+@media (max-width: 493px){
+    #h11{
+        font-size: 2vh;
+    }
+    #sub_Div{
+        font-size: 2vw;
+    }
+    #translateBtn{
+        height: 30px;
+        width: 12vw;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 10%;
+    }
+    #h1{
+        font-size: 2vh;
+    }
+    #style{
+        color: white;
+        font-size: 11px;
+    }
+    #audio{
+        width: 55vw;
+        height: 5vh;
+    }
+}
+@media (max-width: 385px){
+    #h11{
+        font-size: 2vh;
+    }
+    #sub_Div{
+        font-size: 2vw;
+    }
+    #translateBtn{
+        height: 20px;
+        width: 12vw;
+        font-size: 6px;
+        cursor: pointer;
+        border-radius: 10%;
+    }
+    #h1{
+        font-size: 2vh;
+    }
+    #style{
+        color: white;
+        font-size: 10px;
+    }
+    #audio{
+        width: 60vw;
+        height: 5vh;
+    }
+}
+@media (max-width: 257px){
+    #translateBtn{
+        height: 20px;
+        width: 12vw;
+        font-size: 4px;
+        cursor: pointer;
+        border-radius: 10%;
+    }
+    #style{
+        color: white;
+        font-size: 6px;
+    }
+    #audio{
+        width: 60px;
+        height: 4vh;
+    }
+}    
